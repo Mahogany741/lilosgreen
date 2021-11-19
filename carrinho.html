@@ -1,0 +1,1523 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Lilos Green - Carrinho de Compras </title>
+
+    <meta name="robots" content="noindex, follow" />
+
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+
+
+    <!-- CSS
+
+	============================================ -->
+
+
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
+
+
+    <!-- Icon Font CSS -->
+
+    <link rel="stylesheet" href="assets/css/vendor/plazaicon.css">
+
+    <link rel="stylesheet" href="assets/css/vendor/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+
+
+
+    <!-- Plugins CSS -->
+
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+
+
+
+    <!-- Helper CSS -->
+
+    <link rel="stylesheet" href="assets/css/helper.css">
+
+
+
+    <!-- Main Style CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+
+
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+
+    <!-- <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="main-wrapper">
+
+Api-CNPJ.php
+
+
+
+        <!--Top Notification Start-->
+
+        <div style="background: #498136;" class="top-notification-bar text-center">
+
+            <div class="container">
+
+                <div class="notification-entry">
+
+                    <p>Os agrônomos plantam esperança para colher um bom futuro!</p>
+
+                </div>
+
+            </div>
+
+            <div class="notification-close">
+
+                <button class="notification-close-btn"><i class="fa fa-times"></i></button>
+
+            </div>
+
+        </div>
+
+        <!--Top Notification End-->
+
+
+
+        <!--Header Section Start-->
+
+        <div class="header-section d-none d-lg-block">
+
+            <div class="main-header">
+
+                <div class="container position-relative">
+
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-2">
+
+                            <div class="header-logo">
+
+                                <a href="index.html"><img src="assets/images/logo/logo.png" width="143" alt=""></a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-7 position-static">
+
+                            <div class="site-main-nav">
+
+                                <nav class="site-nav">
+
+                                    <ul>
+
+                                        <li><a href="index.html">Home</a></li>
+
+                                        <li><a href="produtos.html">Produtos</a></li>
+
+                                        <li><a href="blog.html">Blog</a></li>
+
+                                        <li>
+
+                                            <a href="#">Cliente</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="carrinho.html">Carrinho</a></li>
+
+                                                <!-- <li><a href="checkout.html">Checkout</a></li> -->
+
+                                                <li><a href="login.php">Login</a></li>
+
+                                                <li><a href="minha-conta.html">Minha Conta</a></li>
+
+                                                <li><a href="register.html">Registrar</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li>
+
+                                            <a href="area-do-parceiro.html">Parceiro</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="area-do-parceiro.html">Área do Parceiro</a></li>
+
+                                                <li><a href="formulario-de-cadastro.html">Cadastro de Parceiro</a></li>
+
+                                                <li><a href="cadastro-produto.html">Cadastro de Produto</a></li>
+
+                                                <li><a href="lista-produtos.html">Lista de Produtos</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li>
+
+                                            <a href="#">Sobre nós</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="contact.html">Contato</a></li>
+
+                                                <li><a href="about.html">Sobre Nós</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                    </ul>
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3">
+
+                            <div class="header-meta-info">
+
+                                <div class="header-search">
+
+                                    <form action="#">
+
+                                        <input type="text" placeholder="Pesquise na loja">
+
+                                        <button><i class="icon-search"></i></button>
+
+                                    </form>
+
+                                </div>
+
+                                <div class="header-account">
+
+                                    <div class="header-account-list dropdown top-link">
+
+                                        <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
+
+        
+
+                                        <ul class="dropdown-menu ">
+
+                                            <li><a href="login.php">Login</a></li>
+
+                                            <li><a href="minha-conta.html">Minha Conta</a></li>
+
+                                            <li><a href="register.html">Registrar</a></li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="header-account-list dropdown mini-cart">
+
+                                        <a href="carrinho.html" title="carrinho de compras">
+
+                                            <i class="icon-shopping-bag"></i>
+
+                                            <!-- <span class="item-count ">3</span> -->
+
+                                        </a>
+
+        
+
+                                        <!-- <ul class="dropdown-menu ">
+
+                                            <li class="product-cart">
+
+                                                <div class="single-cart-box">
+
+                                                    <div class="cart-img">
+
+                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+
+                                                        <span class="pro-quantity">1x</span>
+
+                                                    </div>
+
+                                                    <div class="cart-content">
+
+                                             Api-CNPJ.php"><a href="shop-single.html">Rock Soapwort</a></h6>
+
+                                                        <div class="cart-price">
+
+                                                            <span class="sale-price">$70.00</span>
+
+                                                            <span class="regular-price">$80.00</span>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
+
+                                                </div>
+
+                                                <div class="single-cart-box">
+
+                                                    <div class="cart-img">
+
+                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+
+                                                        <span class="pro-quantity">1x</span>
+
+                                                    </div>
+
+                                                    <div class="cart-content">
+
+                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+
+                                                        <div class="cart-price">
+
+                                                            <span class="sale-price">$70.00</span>
+
+                                                            <span class="regular-price">$80.00</span>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
+
+                                                </div>
+
+                                                <div class="single-cart-box">
+
+                                                    <div class="cart-img">
+
+                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-3.jpg" alt=""></a>
+
+                                                        <span class="pro-quantity">1x</span>
+
+                                                    </div>
+
+                                                    <div class="cart-content">
+
+                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+
+                                                        <div class="cart-price">
+
+                                                            <span class="sale-price">$70.00</span>
+
+                                                            <span class="regular-price">$80.00</span>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
+
+                                                </div>
+
+                                            </li>
+
+                                            <li class="product-total">
+
+                                                <ul class="cart-total">
+
+                                                    <li> Total : <span>$189.00</span></li>
+
+                                                </ul>
+
+                                            </li>
+
+                                            <li class="product-btn">
+
+                                                <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
+
+                                            </li>
+
+                                        </ul> -->
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Header Section End-->
+
+        
+
+        
+
+        <!--Header Mobile Start-->
+
+        <div class="header-mobile d-lg-none">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-6">
+
+                        <div class="header-logo">
+
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <div class="header-meta-info">
+
+                            <div class="header-account">
+
+                                <div class="header-account-list dropdown top-link">
+
+                                    <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
+
+        
+
+                                    <ul class="dropdown-menu ">
+
+                                        <li><a href="login.php">Login</a></li>
+
+                                        <li><a href="minha-conta.html">Minha Conta</a></li>
+
+                                        <li><a href="register.html">Registrar</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="header-account-list mini-cart">
+
+                                    <a href="carrinho.html">
+
+                                        <!-- <i class="icon-shopping-bag"></i>
+
+                                        <span class="item-count ">0</span> -->
+
+                                    </a>
+
+                                </div>
+
+                                <div class="header-account-list mobile-menu-trigger">
+
+                                    <button id="menu-trigger">
+
+                                        <span></span>
+
+                                        <span></span>
+
+                                        <span></span>
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Header Mobile End-->
+
+        
+
+        <!--Header Mobile Menu Start-->
+
+        <div class="header-mobile-menu d-lg-none">
+
+        
+
+            <a href="javascript:void(0)" class="mobile-menu-close">
+
+                <span></span>
+
+                <span></span>
+
+            </a>
+
+        
+
+            <div class="header-meta-info">
+
+                <div class="header-search">
+
+                    <form action="#">
+
+                        <input type="text" placeholder="Search our store ">
+
+                        <button><i class="icon-search"></i></button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        
+
+            <div class="site-main-nav">
+
+                <nav class="site-nav">
+
+                    <ul class="navbar-mobile-wrapper">
+
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="produtos.html">Produtos</a></li>
+
+                        <li><a href="blog.html">Blog</a></li>
+
+        
+
+                        <li class="mega-dropdown">
+
+                            <a class="mega-title" href="#">Cliente</a>
+
+        
+
+                            <ul class="mega-item">
+
+                                <li><a href="carrinho.html">Carrinho</a></li>
+
+                                <!-- <li><a href="checkout.html">Checkout</a></li> -->
+
+                                <li><a href="login.php">Login</a></li>
+
+                                <li><a href="minha-conta.html">Minha Conta</a></li>
+
+                                <li><a href="register.html">Registrar</a></li>
+
+                            </ul>
+
+                        </li>
+
+        
+
+                        <li class="mega-item">
+
+                            <a class="mega-title" href="#">Parceiro</a>
+
+                            <ul class="mega-item">
+
+                                <li><a href="area-do-parceiro.html">Area do Parceiro</a></li>
+
+                                <li><a href="cadastro-produto.html">Cadastro de Produto</a></li>
+
+                                <li><a href="formulario-de-cadastro.html">Cadastro de Parceiro</a></li>
+
+                                <li><a href="lista-produtos.html">Lista de Produtos</a></li>
+
+                                
+
+                            </ul>
+
+                        </li>
+
+        
+
+                        <li class="mega-item">
+
+                            <a class="mega-title" href="#">Sobre Nós</a>
+
+                            <ul class="mega-item">
+
+                                <li><a href="contact.html">Contato</a></li>
+
+                                <li><a href="about.html">Sobre Nós</a></li>
+
+        
+
+                                
+
+                            </ul>
+
+                        </li>
+
+                        <!-- <li class="mega-dropdown">
+
+                            <a class="menu-banner" href="#">
+
+                                <img src="assets/images/menu-banner.jpg" alt="">
+
+                            </a>
+
+                        </li> -->
+
+                    </ul>
+
+                    </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        
+
+            <div class="header-social">
+
+                <ul class="social">
+
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+
+                </ul>
+
+            </div>
+
+        
+
+        </div>
+
+        <!--Header Mobile Menu End-->
+
+
+
+        <div class="overlay"></div>
+
+        <!--Overlay-->
+
+
+
+        <!--Page Banner Start-->
+
+        <div class="page-banner" style="background-image: url(assets/images/testimonial-bg.jpg);">
+
+            <!-- <div class="container">
+
+                <div class="page-banner-content text-center">
+
+                    <h2 class="title">Your Shopping Cart</h2>
+
+                    <ol class="breadcrumb justify-content-center">
+
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Your Shopping Cart</li>
+
+                    </ol>
+
+                </div>
+
+            </div> -->
+
+        </div>
+
+        <!--Page Banner End-->
+
+
+
+        <!--Cart Start-->
+
+        <div class="cart-page section-padding-5">
+
+            <div class="container">
+
+                <div class="cart-table table-responsive">
+
+                    <table class="table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th class="image">Imagem</th>
+
+                                <th class="product">Produto</th>
+
+                                <th class="price">Preço</th>
+
+                                <th class="quantity">Quantidade</th>
+
+                                <th class="total">Total</th>
+
+                                <th class="remove">Remover</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td class="image">
+
+                                    <img src="assets/images/alimentos/tomate2.png" alt="">
+
+                                </td>
+
+                                <td class="product">
+
+                                    <a href="product-tomate.html">Tomate Orgânico (500g)</a>
+
+                                </td>
+
+                                <td class="price">
+
+                                    <span class="amount">R$6,90</span>
+
+                                </td>
+
+                                <td class="quantity">
+
+                                    <form action="#">
+
+                                        <div class="quantity d-inline-flex">
+
+                                            <button type="button" class="sub"><i class="ti-minus"></i></button>
+
+                                            <input type="text" value="1" />
+
+                                            <button type="button" class="add"><i class="ti-plus"></i></button>
+
+                                        </div>
+
+                                    </form>
+
+                                </td>
+
+                                <td class="total">
+
+                                    <span class="total-amount">R$6,90</span>
+
+                                </td>
+
+                                <td class="remove">
+
+                                    <a href="#"><i class="ti-close"></i></a>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="image">
+
+                                    <img src="assets/images/alimentos/alface2.png" alt="">
+
+                                </td>
+
+                                <td class="product">
+
+                                    <a href="product-alface.html">Alface (170g)</a>
+
+                                </td>
+
+                                <td class="price">
+
+                                    <span class="amount">R$ 7,40</span>
+
+                                </td>
+
+                                <td class="quantity">
+
+                                    <form action="#">
+
+                                        <div class="quantity d-inline-flex">
+
+                                            <button type="button" class="sub"><i class="ti-minus"></i></button>
+
+                                            <input type="text" value="1" />
+
+                                            <button type="button" class="add"><i class="ti-plus"></i></button>
+
+                                        </div>
+
+                                    </form>
+
+                                </td>
+
+                                <td class="total">
+
+                                    <span class="total-amount">R$ 7,40</span>
+
+                                </td>
+
+                                <td class="remove">
+
+                                    <a href="#"><i class="ti-close"></i></a>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="image">
+
+                                    <img src="assets/images/alimentos/banana.png" alt="">
+
+                                </td>
+
+                                <td class="product">
+
+                                    <a href="product-banana.html">Banana (500g)</a>
+
+                                </td>
+
+                                <td class="price">
+
+                                    <span class="amount">R$ 5,90</span>
+
+                                </td>
+
+                                <td class="quantity">
+
+                                    <form action="#">
+
+                                        <div class="quantity d-inline-flex">
+
+                                            <button type="button" class="sub"><i class="ti-minus"></i></button>
+
+                                            <input type="text" value="1" />
+
+                                            <button type="button" class="add"><i class="ti-plus"></i></button>
+
+                                        </div>
+
+                                    </form>
+
+                                </td>
+
+                                <td class="total">
+
+                                    <span class="total-amount">R$ 5,90</span>
+
+                                </td>
+
+                                <td class="remove">
+
+                                    <a href="#"><i class="ti-close"></i></a>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <div class="cart-btn">
+
+                    <div class="cart-btn-left">
+
+                        <a href="produtos.html" class="btn btn-primary">Continuar comprando</a>
+
+                    </div>
+
+                    <div class="cart-btn-right">
+
+                        <a href="#" class="btn">Limpar carrinho</a>
+
+                        <a href="#" class="btn">Atualizar carrinho</a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+
+                        <div class="cart-shipping">
+
+                            <div class="cart-title">
+
+                                <h4 class="title">Calcular frete</h4>
+
+                                <p>Consulte sua taxa de envio *</p>
+
+                            </div>
+
+                            <div class="cart-form mt-25">
+
+                                <p>Calcular frete</p>
+
+                                <form action="#">
+
+                                    <div class="single-select2">
+
+                                        <div class="form-select2">
+
+                                            <select class="select2">
+
+                                                <option value="">Selecione o Estado:</option>
+
+                                                    <option value="0">Acre</option>
+
+                                                    <option value="1">Alagoas</option>
+
+                                                    <option value="2">Amapá</option>
+
+                                                    <option value="3">Amazonas</option>
+
+                                                    <option value="4">Bahia</option>
+
+                                                    <option value="5">Ceará</option>
+
+                                                    <option value="6">Distrito Federal*</option>
+
+                                                    <option value="7">Espírito Santo</option>
+
+                                                    <option value="8">Goiás</option>
+
+                                                    <option value="9">Maranhão</option>
+
+                                                    <option value="10">Mato Grosso</option>
+
+                                                    <option value="11">Mato Grosso do Sul</option>
+
+                                                    <option value="12">Minas Gerais</option>
+
+                                                    <option value="13">Pará</option>
+
+                                                    <option value="14">Paraíba</option>
+
+                                                    <option value="15">Paraná</option>
+
+                                                    <option value="16">Pernambuco</option>
+
+                                                    <option value="17">Piauí</option>
+
+                                                    <option value="18">Rio de Janeiro</option>
+
+                                                    <option value="19">Rio Grande do Norte</option>
+
+                                                    <option value="20">Rio Grande do Sul</option>
+
+                                                    <option value="21">Rondônia</option>
+
+                                                    <option value="22">Roraima</option>
+
+                                                    <option value="23">Santa Catarina</option>
+
+                                                    <option value="24">São Paulo</option>
+
+                                                    <option value="25">Sergipe</option>
+
+                                                    <option value="26">Tocantins</option>
+
+                                            </select>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="single-select2">
+
+                                        <div class="form-select2">
+
+                                            <select class="select2">
+
+                                                <option value="">Selecione a Cidade</option>
+
+                                                    <option value="0">Rio Branco</option>
+
+                                                    <option value="1">Maceió</option>
+
+                                                    <option value="2">Macapá</option>
+
+                                                    <option value="3">Manaus</option>
+
+                                                    <option value="4">Salvador</option>
+
+                                                    <option value="5">Fortaleza</option>
+
+                                                    <option value="6">Brasília</option>
+
+                                                    <option value="7">Vitória</option>
+
+                                                    <option value="8">Goiânia</option>
+
+                                                    <option value="9">São Luís</option>
+
+                                                    <option value="10">Cuiabá</option>
+
+                                                    <option value="11">Campo Grande</option>
+
+                                                    <option value="12">Belo Horizonte</option>
+
+                                                    <option value="13">Belém</option>
+
+                                                    <option value="14">João Pessoa</option>
+
+                                                    <option value="15">Curitiba</option>
+
+                                                    <option value="16">Recife</option>
+
+                                                    <option value="17">Teresina</option>
+
+                                                    <option value="18">Rio de Janeiro</option>
+
+                                                    <option value="19">Natal</option>
+
+                                                    <option value="20">Porto Alegre</option>
+
+                                                    <option value="21">Porto Velho</option>
+
+                                                    <option value="22">Boa Vista</option>
+
+                                                    <option value="23">Florianópolis</option>
+
+                                                    <option value="24">São Paulo</option>
+
+                                                    <option value="25">Aracaju</option>
+
+                                                    <option value="26">Palmas</option>
+
+                                            </select>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="single-form">
+
+                                        <input type="text" placeholder="Código de endereçamento postal / CEP">
+
+                                    </div>
+
+                                    <div class="cart-form-btn">
+
+                                        <button class="btn btn-primary">Calcular</button>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="cart-coupon">
+
+                            <div class="cart-title">
+
+                                <h4 class="title">Código de cupom</h4>
+
+                                <p>Digite seu código de cupom.</p>
+
+                            </div>
+
+                            <div class="cart-form mt-25">
+
+                                <form action="#">
+
+                                    <div class="single-form">
+
+                                        <input type="text" placeholder="Digite aqui...">
+
+                                    </div>
+
+                                    <div class="cart-form-btn">
+
+                                        <button class="btn btn-primary">Aplicar cupom</button>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="cart-totals">
+
+                            <div class="cart-title">
+
+                                <h4 class="title">Valor total do carrinho</h4>
+
+                            </div>
+
+                            <div class="cart-total-table mt-25">
+
+                                <table class="table">
+
+                                    <tbody>
+
+                                        <tr>
+
+                                            <td>
+
+                                                <p class="value">Subtotal</p>
+
+                                            </td>
+
+                                            <td>
+
+                                                <p class="price">R$ 16,97</p>
+
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+
+                                                <p class="value">Frete</p>
+
+                                            </td>
+
+                                            <td>
+
+                                                <ul class="shipping-list">
+
+                                                    <li class="cus-radio">
+
+                                                        <input type="radio" name="shipping" id="radio1" checked="">
+
+                                                        <label for="radio1"><span></span> Taxa fixa</label>
+
+                                                    </li>
+
+                                                    <li class="cus-radio">
+
+                                                        <input type="radio" name="shipping" id="radio2">
+
+                                                        <label for="radio2"><span></span> Frete grátis</label>
+
+                                                    </li>
+
+                                                    <li class="cus-radio">
+
+                                                        <input type="radio" name="shipping" id="radio3">
+
+                                                        <label for="radio3"><span></span> Retirada no balcão</label>
+
+                                                    </li>
+
+                                                </ul>
+
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+
+                                                <p class="value">Total</p>
+
+                                            </td>
+
+                                            <td>
+
+                                                <p class="price">R$ 16,97</p>
+
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                            <div class="cart-total-btn">
+
+                                <a href="checkout.html" class="btn btn-primary btn-block">Confirmar compra</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Cart End-->
+
+
+
+
+
+        <!--Footer Section Start-->
+
+        <div style="background: #498136;" class="footer-area">
+
+            <div class="container">
+
+                <div class="footer-widget-area section-padding-6">
+
+                    <div class="row justify-content-between">
+
+
+
+                        <!--Footer Widget Start-->
+
+                        <div class="col-lg-4 col-md-6">
+
+                            <div class="footer-widget">
+
+                                <a class="footer-logo" href="#"><img src="assets/images/logo/logo-white.png" alt=""></a>
+
+                                <div class="footer-widget-text">
+
+                                    <p>Despertando em você o prazer em se alimentar corretamente.</p>
+
+                                </div>
+
+                                <div class="widget-social">
+
+                                    <ul>
+
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
+                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <!--Footer Widget End-->
+
+                        </div>
+
+
+
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+
+                            <div class="footer-widget">
+
+                                <h4 class="footer-widget-title">Institucional</h4>
+
+
+
+                                <div class="footer-widget-menu">
+
+                                    <ul>
+
+                                        <li><a href="#">Quem somos nós</a></li>
+
+                                        <li><a href="#">Contato</a></li>
+
+                                        <li><a href="#">Trabalhe conosco</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+
+                            <div class="footer-widget">
+
+                                <h4 class="footer-widget-title">Nossa Loja</h4>
+
+
+
+                                <div class="footer-widget-menu">
+
+                                    <ul>
+
+                                        <li><a href="#">Perguntas Frequentes (FAQ)</a></li>
+
+                                        <li><a href="#">Formas de pagamento e Entrega</a></li>
+
+                                        <li><a href="#">Troca e Devolução</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+
+                            <div class="footer-widget">
+
+                                <h4 class="footer-widget-title">Minha Conta</h4>
+
+
+
+                                <div class="footer-widget-menu">
+
+                                    <ul>
+
+                                        <li><a href="#">Minha Conta</a></li>
+
+                                        <li><a href="#">Minha Lista de Desejos</a></li>
+
+                                        <li><a href="#">Entrar</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6">
+
+                            <div class="footer-widget">
+
+                                <h4 class="footer-widget-title">Customer Service</h4>
+
+
+
+                                <div class="footer-widget-menu">
+
+                                    <ul>
+
+                                        <li><a href="my-account.html">My Account</a></li>
+
+                                        <li><a href="#">Terms of Use</a></li>
+
+                                        <li><a href="#">Deliveries & Returns</a></li>
+
+                                        <li><a href="#">Gift card</a></li>
+
+                                        <li><a href="#">Legal Notice</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div> -->
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Footer Section End-->
+
+
+
+        <!--Copyright Section Start-->
+
+        <div style="background: #498136;" class="copyright-section">
+
+            <div class="container">
+
+                <div class="copyright-wrapper text-center d-lg-flex align-items-center justify-content-between">
+
+
+
+                    <!--Right Start-->
+
+                    <div class="copyright-content">
+
+                        <p>Copyright 2021 &copy; Lilos Green. Todos os direitos reservados</p>
+
+                    </div>
+
+                    <!--Right End-->
+
+
+
+                    <!--Right Start-->
+
+                    <div class="copyright-payment">
+
+                        <img src="assets/images/payment.png" alt="">
+
+                    </div>
+
+                    <!--Right End-->
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Copyright Section End-->
+
+
+
+
+
+
+
+        <!--Back To Start-->
+
+        <a href="#" class="back-to-top">
+
+            <i class="fa fa-angle-double-up"></i>
+
+        </a>
+
+        <!--Back To End-->
+
+
+
+    </div>
+
+
+
+    <!-- JS
+
+    ============================================ -->
+
+
+
+    <!-- Modernizer JS -->
+
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+
+    <!-- jQuery JS -->
+
+    <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+
+    <script src="assets/js/vendor/popper.min.js"></script>
+
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+
+
+    <!-- Plugins JS -->
+
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+
+    <script src="assets/js/plugins/jquery.elevateZoom.min.js"></script>
+
+    <script src="assets/js/plugins/select2.min.js"></script>
+
+    <script src="assets/js/plugins/ajax-contact.js"></script>
+
+
+
+
+
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+
+    <!-- <script src="assets/js/plugins.min.js"></script> -->
+
+
+
+    <!-- Main JS -->
+
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+    <!-- Google Map js -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"></script>
+
+    <script src="assets/js/map-script.js"></script>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^formulario\-de\-cadastro\.html$ "https\:\/\/lilosgreen\.com\.br\/Api\-CNPJ\.php" [R=301,L]

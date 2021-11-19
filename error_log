@@ -1,0 +1,51 @@
+[17-Nov-2021 12:14:06 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 16:44:03 America/Recife] PHP Parse error:  syntax error, unexpected '<' in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 9
+[18-Nov-2021 16:44:07 America/Recife] PHP Parse error:  syntax error, unexpected '<' in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 9
+[18-Nov-2021 16:48:04 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 16:48:04 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 19:41:29 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 19:41:29 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 19:47:42 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 19:49:01 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 19:49:37 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 20:18:47 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:18:47 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:22:16 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 20:23:48 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 20:31:30 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:31:30 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:32:13 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:32:13 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:32:23 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:32:23 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:34:35 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:34:35 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:34:42 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:34:42 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:35:20 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:35:20 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 20:47:43 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 20:47:43 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:00:33 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:00:33 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:11:18 America/Recife] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/lilosgreen/public_html/login.php on line 1265
+[18-Nov-2021 21:18:03 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:18:03 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:18:09 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:18:09 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:18:44 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:18:44 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:21:08 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:21:08 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:21:25 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:21:25 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:25:07 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:25:07 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:32:00 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:32:00 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:32:05 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:32:05 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:32:53 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:32:53 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
+[18-Nov-2021 21:33:05 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 24
+[18-Nov-2021 21:33:05 America/Recife] PHP Warning:  Invalid argument supplied for foreach() in /home/lilosgreen/public_html/processa_form_API_CNPJ.php on line 29
